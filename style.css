@@ -18,7 +18,7 @@
 .div_yellow_lamp{
     width: 200px;
     height: 200px;
-    background-image: url(./img/yellow_lamp.png);
+    background-image: url(./img/yellow_lamp.png) !important;
     background-size: contain;
     background-repeat: no-repeat;
 }

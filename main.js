@@ -12,6 +12,8 @@ E così via...
 Per fare questo bonus potremmo aver bisogno del metodo string.includes()*/
 
 const white_lamp_element = document.getElementById("div_white_lamp");
+console.log(white_lamp_element);
+
 /* const yellow_lamp_element = document.getElementById("yellow_lamp"); */
 const button_element = document.getElementById("button")
 
