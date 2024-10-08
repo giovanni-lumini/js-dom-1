@@ -14,11 +14,18 @@ Per fare questo bonus potremmo aver bisogno del metodo string.includes()*/
 const white_lamp_element = document.getElementById("div_white_lamp");
 console.log(white_lamp_element);
 
-/* const yellow_lamp_element = document.getElementById("yellow_lamp"); */
 const button_element = document.getElementById("button")
 
 button_element.addEventListener("click", my_function)
 
 function my_function (){
-    white_lamp_element.className = "div_yellow_lamp";
+    if (button_element.innerHTML === ("accendi")) {
+        white_lamp_element.className = "div_yellow_lamp";
+        button_element.innerHTML = ("spegni");
+    } else {
+        white_lamp_element.className = "div_white_lamp";
+        button_element.innerHTML = ("accendi");
+    }   
 }
+
+
