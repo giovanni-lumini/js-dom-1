@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    align-items: center;
+}
+
+#button{
+    height: 20px;
+}
+
+.div_white_lamp{
+    width: 200px;
+    height: 200px;
+    background-image: url(./img/white_lamp.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.div_yellow_lamp{
+    width: 200px;
+    height: 200px;
+    background-image: url(./img/yellow_lamp.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+

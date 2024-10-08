@@ -11,4 +11,12 @@ Al secondo click la lampadina si spegne e nel bottone compare la scritta "Accend
 E così via...
 Per fare questo bonus potremmo aver bisogno del metodo string.includes()*/
 
+const white_lamp_element = document.getElementById("white_lamp");
+/* const yellow_lamp_element = document.getElementById("yellow_lamp"); */
+const button_element = document.getElementById("button")
 
+button_element.addEventListener("click", my_function)
+
+function my_function (){
+    white_lamp_element.className = "div_yellow_lamp";
+}
